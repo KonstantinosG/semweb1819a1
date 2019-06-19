@@ -1,0 +1,22 @@
+<http://host/sw/p13beza/myvocab#Καθηγητής> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
+<http://host/sw/p13beza/myvocab#Μάθημα> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://host/sw/p13beza/myvocab#Διάλεξη> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://host/sw/p13beza/myvocab#Αίθουσα Διδασκαλίας> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://host/sw/p13beza/myvocab#Professor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/p13beza/myvocab#Professor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/p13beza/myvocab#Διάλεξη> .
+<http://host/sw/p13beza/myvocab#Professor> <http://www.w3.org/2000/01/rdf-schema#range> <http://host/sw/p13beza/myvocab#Καθηγητής> .
+<http://host/sw/p13beza/myvocab#Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/p13beza/myvocab#Course> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/p13beza/myvocab#Διάλεξη> .
+<http://host/sw/p13beza/myvocab#Course> <http://www.w3.org/2000/01/rdf-schema#range> <http://host/sw/p13beza/myvocab#Μάθημα> .
+<http://host/sw/p13beza/myvocab#Hall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/p13beza/myvocab#Hall> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/p13beza/myvocab#Διάλεξη> .
+<http://host/sw/p13beza/myvocab#Hall> <http://www.w3.org/2000/01/rdf-schema#range> <http://host/sw/p13beza/myvocab#Αίθουσα Διδασκαλίας> .
+<http://host/sw/p13beza/myvocab#Ώρα%20Έναρξης> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/p13beza/myvocab#Ώρα%20Έναρξης> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/p13beza/myvocab#Διάλεξη> .
+<http://host/sw/p13beza/myvocab#Ώρα%20Έναρξης> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#time> .
+<http://host/sw/p13beza/myvocab#Ώρα%20Λήξης> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/p13beza/myvocab#Ώρα%20Λήξης> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/p13beza/myvocab#Διάλεξη> .
+<http://host/sw/p13beza/myvocab#Ώρα%20Λήξης> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#time> .
+<http://host/sw/p13beza/myvocab#Ημέρα> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/p13beza/myvocab#Ημέρα> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/p13beza/myvocab#Διάλεξη> .
+<http://host/sw/p13beza/myvocab#Ημέρα> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
